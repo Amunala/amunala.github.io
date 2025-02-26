@@ -1,16 +1,16 @@
-const projects = [
+const portfolioProjects = [
     {
       id: 1,
-      title: "Project One",
+      title: "CBC Materials for School",
       description: "This is a short description of the project.",
-      imageUrl: "/images/project1.jpg", 
+      imageUrl: "/cbc/gendia.webp", 
       tags: ["React", "Next.js", "UI/UX"],
     },
     {
       id: 2,
-      title: "Project Two",
+      title: "Logos",
       description: "Another project showcasing amazing work.",
-      imageUrl: "/images/project2.jpg",
+      imageUrl: "/logos/sbr.webp",
       tags: ["Vue", "Tailwind", "Animations"],
     },
     {
@@ -22,5 +22,5 @@ const projects = [
     },
   ];
   
-  export default projects;
+  export default portfolioProjects;
   
