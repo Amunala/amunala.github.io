@@ -15,9 +15,9 @@ const portfolioProjects = [
     },
     {
       id: 3,
-      title: "Project Three",
+      title: "Moving Minds Posters",
       description: "Exploring the power of modern web technologies.",
-      imageUrl: "/images/project3.jpg",
+      imageUrl: "/moving/movingminds6.webp",
       tags: ["Node.js", "Express", "MongoDB"],
     },
   ];
