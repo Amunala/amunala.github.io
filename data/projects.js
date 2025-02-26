@@ -20,7 +20,20 @@ const portfolioProjects = [
       imageUrl: "/moving/movingminds6.webp",
       tags: ["Node.js", "Express", "MongoDB"],
     },
+    {
+        id: 4,
+        title: "Church Tithe Cards",
+        description: "Exploring the power of modern web technologies.",
+        imageUrl: "/tithe/tithe1.webp",
+        tags: ["Node.js", "Express", "MongoDB"],
+      },
   ];
   
   export default portfolioProjects;
+
+  const pdfProjects = [
+    { title: "Tithe Project", description: "Tithe Project", pdfUrl: "/pdf/tithe.pdf" },
+  ];
+  
+
   
