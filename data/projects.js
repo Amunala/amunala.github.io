@@ -48,6 +48,20 @@ const portfolioProjects = [
         imageUrl: "/siangiki/SIANGIKI1.webp",
         tags: ["Node.js", "Express", "MongoDB"],
       },
+      {
+        id: 8,
+        title: "Product Catalogue - Vall's Apparels",
+        description: "Exploring the power of modern web technologies.",
+        imageUrl: "/vall/VALL1.webp",
+        tags: ["Node.js", "Express", "MongoDB"],
+      },
+      {
+        id: 9,
+        title: "Promotion - MC Kali West",
+        description: "Exploring the power of modern web technologies.",
+        imageUrl: "/mc/MC1.webp",
+        tags: ["Node.js", "Express", "MongoDB"],
+      },
   ];
   
   export default portfolioProjects;
