@@ -19,7 +19,7 @@ const Works = () => {
   };
 
   return (
-    <div className="w-full bg-black px-2 md:px-20">
+    <div className="w-full bg-black px-2 md:px-20 ">
       {/* Introduction */}
       <div className="flex flex-col md:flex-row mx-auto bg-black mt-20 border-b-2 border-white/30 pt-20 md:pt-40 pb-10 md:pb-20">
         <div className="w-full md:w-1/2">
@@ -52,7 +52,7 @@ const Works = () => {
         initial="hidden"
         animate="visible"
         variants={fadeUp}
-        custom={2} // Start projects animation after text elements
+        custom={2} 
       >
         <Projects />
       </motion.div>

@@ -30,7 +30,7 @@ const WorkPage = () => {
   return (
     <>
       <Navbar />
-      <div className="w-full min-h-screen bg-black px-2 md:px-20 pt-40 pb-16">
+      <div className="w-full min-h-screen bg-black px-2 md:px-20 pt-40 pb-16 ">
         {/* Project Title */}
         <motion.h1 
           className="text-white text-start text-2xl md:text-4xl font-bold"
