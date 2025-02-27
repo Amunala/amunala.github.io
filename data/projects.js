@@ -34,6 +34,13 @@ const portfolioProjects = [
         imageUrl: "/asamo/Asamo.webp",
         tags: ["Node.js", "Express", "MongoDB"],
       },
+      {
+        id: 6,
+        title: "GFCCA Company Profile",
+        description: "Exploring the power of modern web technologies.",
+        imageUrl: "/gfcca/GFCCA1.webp",
+        tags: ["Node.js", "Express", "MongoDB"],
+      },
   ];
   
   export default portfolioProjects;
