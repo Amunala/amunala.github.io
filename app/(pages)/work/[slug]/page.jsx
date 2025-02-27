@@ -11,25 +11,37 @@ const WorkPage = () => {
   if (!project) return notFound();
 
   return (
-    <div className="w-full min-h-screen bg-black px-8 md:px-20 py-16">
+    <div className="w-full min-h-screen bg-black px-2 md:px-20 pt-40 pb-16">
       {/* Project Title */}
-      <h1 className="text-white text-start text-4xl md:text-6xl font-bold">
+      <h1 className="text-white text-start text-2xl md:text-4xl font-bold">
         {project.title}
       </h1>
 
       {/* Problem & Solution */}
-      <div className="mt-8 flex flex-col md:flex-row gap-8">
+      <div className="mt-8 flex flex-col md:flex-row gap-8 pb-20 border-b-2 border-white/30">
         {/* Problem */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-white text-2xl font-semibold">Problem</h2>
-          <p className="text-gray-400 mt-2">{project.problem}</p>
+          <h2 className="text-purple-500 text-base md:text-xl font-semibold">problem</h2>
+          <p className="text-white text-xs md:text-base mt-2">{project.problem}</p>
         </div>
 
         {/* Solution */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-white text-2xl font-semibold">Solution</h2>
-          <p className="text-gray-400 mt-2">{project.solution}</p>
+          <h2 className="text-purple-500 text-base md:text-xl font-semibold">solution</h2>
+          <p className="text-white text-xs md:text-base mt-2">{project.solution}</p>
         </div>
+      </div>
+
+      {/* Image Grid */}
+      <div className="mt-12 grid grid-cols-1 gap-8">
+        {project.images.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`${project.title} Image ${index + 1}`}
+            className="w-full h-auto rounded-lg shadow-lg"
+          />
+        ))}
       </div>
     </div>
   );

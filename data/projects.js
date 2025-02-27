@@ -8,6 +8,13 @@ const portfolioProjects = [
       slug: "cbc-materials",
       problem: "Clients were facing issues with slow load times.",
       solution: "Optimized images and implemented caching strategies.",
+      images: [
+        "/cbc/gendia.webp",
+        "/cbc/grade1.webp",
+        "/cbc/grade4.webp",
+        "/cbc/grade7.webp",
+        "/cbc/grade8.webp",
+      ],
     },
     {
       id: 2,
