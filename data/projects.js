@@ -3,8 +3,11 @@ const portfolioProjects = [
       id: 1,
       title: "CBC Materials for School",
       description: "This is a short description of the project.",
-      imageUrl: "/cbc/gendia.webp", 
+      imageUrl: "/cbc/gendia.webp",
       tags: ["React", "Next.js", "UI/UX"],
+      slug: "cbc-materials",
+      problem: "Clients were facing issues with slow load times.",
+      solution: "Optimized images and implemented caching strategies.",
     },
     {
       id: 2,
@@ -12,6 +15,7 @@ const portfolioProjects = [
       description: "Another project showcasing amazing work.",
       imageUrl: "/logos/sbr.webp",
       tags: ["Vue", "Tailwind", "Animations"],
+      slug: "cbc-materials",
     },
     {
       id: 3,
@@ -19,6 +23,7 @@ const portfolioProjects = [
       description: "Exploring the power of modern web technologies.",
       imageUrl: "/moving/movingminds6.webp",
       tags: ["Node.js", "Express", "MongoDB"],
+      slug: "cbc-materials",
     },
     {
         id: 4,
@@ -26,6 +31,7 @@ const portfolioProjects = [
         description: "Exploring the power of modern web technologies.",
         imageUrl: "/tithe/tithe1.webp",
         tags: ["Node.js", "Express", "MongoDB"],
+        slug: "cbc-materials",
       },
       {
         id: 5,
@@ -33,6 +39,7 @@ const portfolioProjects = [
         description: "Exploring the power of modern web technologies.",
         imageUrl: "/asamo/Asamo.webp",
         tags: ["Node.js", "Express", "MongoDB"],
+        slug: "cbc-materials",
       },
       {
         id: 6,
@@ -40,6 +47,7 @@ const portfolioProjects = [
         description: "Exploring the power of modern web technologies.",
         imageUrl: "/gfcca/GFCCA1.webp",
         tags: ["Node.js", "Express", "MongoDB"],
+        slug: "cbc-materials",
       },
       {
         id: 7,
@@ -47,6 +55,7 @@ const portfolioProjects = [
         description: "Exploring the power of modern web technologies.",
         imageUrl: "/siangiki/SIANGIKI1.webp",
         tags: ["Node.js", "Express", "MongoDB"],
+        slug: "cbc-materials",
       },
       {
         id: 8,
@@ -54,6 +63,7 @@ const portfolioProjects = [
         description: "Exploring the power of modern web technologies.",
         imageUrl: "/vall/VALL1.webp",
         tags: ["Node.js", "Express", "MongoDB"],
+        slug: "cbc-materials",
       },
       {
         id: 9,
@@ -61,6 +71,7 @@ const portfolioProjects = [
         description: "Exploring the power of modern web technologies.",
         imageUrl: "/mc/MC1.webp",
         tags: ["Node.js", "Express", "MongoDB"],
+        slug: "cbc-materials",
       },
   ];
   
