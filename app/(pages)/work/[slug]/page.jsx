@@ -22,13 +22,13 @@ const WorkPage = () => {
         {/* Problem */}
         <div className="w-full md:w-1/2">
           <h2 className="text-purple-500 text-base md:text-xl font-semibold">problem</h2>
-          <p className="text-white text-xs md:text-base mt-2">{project.problem}</p>
+          <p className="text-white text-xs md:text-base mt-2 w-[80%] md:w-[60%]">{project.problem}</p>
         </div>
 
         {/* Solution */}
         <div className="w-full md:w-1/2">
           <h2 className="text-purple-500 text-base md:text-xl font-semibold">solution</h2>
-          <p className="text-white text-xs md:text-base mt-2">{project.solution}</p>
+          <p className="text-white text-xs md:text-base mt-2 w-[80%] md:w-[60%]">{project.solution}</p>
         </div>
       </div>
 
@@ -39,7 +39,7 @@ const WorkPage = () => {
             key={index}
             src={image}
             alt={`${project.title} Image ${index + 1}`}
-            className="w-full h-auto rounded-lg shadow-lg"
+            className="w-full md:w-[80%] mx-auto h-auto md:max-h-[1200px] rounded-lg shadow-lg"
           />
         ))}
       </div>
