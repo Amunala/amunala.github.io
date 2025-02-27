@@ -27,6 +27,13 @@ const portfolioProjects = [
         imageUrl: "/tithe/tithe1.webp",
         tags: ["Node.js", "Express", "MongoDB"],
       },
+      {
+        id: 5,
+        title: "Asamo Insurance Company Profile",
+        description: "Exploring the power of modern web technologies.",
+        imageUrl: "/asamo/Asamo.webp",
+        tags: ["Node.js", "Express", "MongoDB"],
+      },
   ];
   
   export default portfolioProjects;
