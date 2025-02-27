@@ -41,6 +41,13 @@ const portfolioProjects = [
         imageUrl: "/gfcca/GFCCA1.webp",
         tags: ["Node.js", "Express", "MongoDB"],
       },
+      {
+        id: 7,
+        title: "Siangiki Limited Company Profile",
+        description: "Exploring the power of modern web technologies.",
+        imageUrl: "/siangiki/SIANGIKI1.webp",
+        tags: ["Node.js", "Express", "MongoDB"],
+      },
   ];
   
   export default portfolioProjects;
