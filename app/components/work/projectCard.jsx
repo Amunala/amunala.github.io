@@ -52,7 +52,7 @@ const ProjectCard = ({ title, description, imageUrl, tags, slug }) => {
           {tags.map((tag, index) => (
             <span
               key={index}
-              className="text-xs md:text-sm text-white/50 py-1"
+              className="text-xs md:text-sm text-purple-500 py-1"
             >
               {tag}
             </span>
