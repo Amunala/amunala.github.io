@@ -69,16 +69,16 @@ export default function ContactPopup({ onClose }) {
                 </button>
 
                 {/* Wrapped Content with Top & Bottom Padding */}
-                <div className="py-6">
-                    <h2 className="text-3xl mb-6 md:mb-10">Start a Project</h2>
-                    <p className="mb-4 text-lg">What problem can I help you tackle?</p>
+                <div className="py-2 md:py-6">
+                    <h2 className="text-lg md:text-3xl mb-6 md:mb-10">Start a Project</h2>
+                    <p className="mb-4 text-sm md:text-lg">What problem can I help you tackle?</p>
 
                     {/* Service Options */}
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6 md:mb-10">
                         {["Research & Consulting", "UI & UX", "Branding", "Other"].map((option) => (
                             <div
                                 key={option}
-                                className={`p-2 h-14 flex items-center justify-center border rounded-md text-center text-sm cursor-pointer transition-all break-words ${selectedOptions.includes(option)
+                                className={`p-2 h-14 flex items-center justify-center border rounded-md text-center text-xs md:text-sm cursor-pointer transition-all break-words ${selectedOptions.includes(option)
                                         ? "bg-black text-white border-black"
                                         : "border-gray-300 text-gray-700 hover:bg-gray-100"
                                     }`}
@@ -93,9 +93,9 @@ export default function ContactPopup({ onClose }) {
                     <input type="hidden" name="project_type" value={selectedOptions.join(", ")} />
 
                     {/* Your Information */}
-                    <h3 className="text-lg mb-4">Your Information</h3>
+                    <h3 className="text-sm md:text-lg mb-4">Your Information</h3>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4 text-xs md:text-sm">
                         <input
                             type="text"
                             name="from_name"
@@ -117,7 +117,7 @@ export default function ContactPopup({ onClose }) {
                         name="message"
                         placeholder="Tell me more about your project"
                         required
-                        className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black h-32 resize-none mb-6"
+                        className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black h-32 resize-none mb-6 text-xs md:text-sm"
                     ></textarea>
 
                     {/* Status message */}
@@ -134,7 +134,7 @@ export default function ContactPopup({ onClose }) {
                     <button
                         type="submit"
                         disabled={isSubmitting}
-                        className="w-full md:w-[40%] bg-black text-white py-3 rounded-md text-lg font-semibold hover:bg-gray-900 transition-all overflow-hidden disabled:bg-gray-400 disabled:cursor-not-allowed"
+                        className="w-full md:w-[40%] bg-black text-white py-3 rounded-md text-sm md:text-lg font-semibold hover:bg-gray-900 transition-all overflow-hidden disabled:bg-gray-400 disabled:cursor-not-allowed"
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
                     >
@@ -145,7 +145,7 @@ export default function ContactPopup({ onClose }) {
 
                     {/* Border and Email Contact */}
                     <div className="mt-6 border-t border-gray-300 pt-4">
-                        <p className="text-black text-lg">
+                        <p className="text-black text-sm md:text-lg">
                             Or send me an{" "}
                             <a
                                 href="mailto:emannuelamunala@gmail.com"
