@@ -63,7 +63,7 @@ export default function Featured() {
   return (
     <div ref={componentRef} className="w-full bg-black px-2 md:px-20">
       {/* Introduction */}
-      <div className="flex flex-col mx-auto bg-black mt-20 pt-20 md:pt-40 pb-10 md:pb-20">
+      <div className="flex flex-col mx-auto bg-black pt-20 md:pt-40 pb-10 md:pb-20">
         <motion.div
           className="flex gap-4 items-end"
           initial="hidden"
